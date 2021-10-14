@@ -1,0 +1,17 @@
+GET http://localhost:5000/accs
+Authorization: Beaer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MzExNzY1MzIsImV4cCI6MTYzMTE4MzczMn0.hlYQVKa_nyJ8y8MN_kMjPB-ySy5dlMvguBpYPqcjsjM
+####
+
+POST http://localhost:5000/accs/
+
+{
+    "username": "huy9",
+    "passwd": "1111"
+}
+###
+
+POST http://localhost:5000/login
+
+{
+    "username": "holetex",
+}
